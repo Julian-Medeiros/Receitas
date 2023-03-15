@@ -1,0 +1,16 @@
+.menu__lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.menu__lista--link {
+    color: #808080;
+    text-decoration: none;
+}
+.menu__lista--link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+.menu__lista--link:hover{
+    text-decoration: underline;
+}
