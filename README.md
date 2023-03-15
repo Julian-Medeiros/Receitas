@@ -1,1 +1,1 @@
-Projeto de site de receitas para praticar HTML/CSS
+Site desenvolvido para praticar conceitos da arquitetura e boas práticas de CSS e responsividade em dispositivos pequenos
