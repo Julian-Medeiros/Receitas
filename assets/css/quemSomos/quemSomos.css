@@ -1,0 +1,5 @@
+.quem-somos {
+    background:  #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}

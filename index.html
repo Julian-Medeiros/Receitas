@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,28 +8,42 @@
         <title>Fruta & Fruto</title>
         <link href="./assets/css/normalize.css" rel="stylesheet" />
         <link href="./assets/css/reset.css" rel="stylesheet" />
+
         <link rel="stylesheet" href="./assets/css/cabecalho.css">
         <link rel="stylesheet" href="./assets/css/menu.css">
+        <link rel="stylesheet" href="./assets/css/logo.css">
+
         <link rel="stylesheet" href="./assets/css/banner.css">
         <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
         <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+
         <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
         <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
         <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css">
+
         <link rel="stylesheet" href="./assets/css/receita/receita-botao.css">
         <link rel="stylesheet" href="./assets/css/receita/receita-conteudo.css">
         <link rel="stylesheet" href="./assets/css/receita/receita-descricao.css">
         <link rel="stylesheet" href="./assets/css/receita/receita-imagem.css">
         <link rel="stylesheet" href="./assets/css/receita/receita-titulo.css">
-        <link rel="stylesheet" href="./assets/css/receitas.css">
+        <link rel="stylesheet" href="./assets/css//receita/receitas.css">
         <link rel="stylesheet" href="./assets/css/receita/receita.css">
 
+        <link rel="stylesheet" href="./assets/css/quemSomos/quemSomos.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/quemSomos-titulo.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/quemSomos-descricao.css">
 
+        <link rel="stylesheet" href="./assets/css/quemSomos/pessoas/pessoas.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/pessoas/pessoa.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/pessoas/pessoa-nome.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/pessoas/pessoa-imagem.css">
+        <link rel="stylesheet" href="./assets/css/quemSomos/pessoas/pessoa-funcao.css">
+
+        <link rel="stylesheet" href="./assets/css/rodape.css">
     </head>
     <body>
-
         <header class="cabecalho">
-            <img class=logo src="assets/img/logo.jpg" alt="logo" href="index.html">
+            <img class=logo src="assets/img/logo.jpg">
             <nav class="menu">
                 <ul class="menu__lista">
                     <li><a class="menu__lista--link ativo" href="index.html">início</a></li>
@@ -40,10 +53,9 @@
                 </ul>
             </nav>
         </header>
-
         <main>
             <section class="banner">
-                <img class="banner__imagem" src="assets/img/banner.jpg" alt="banner">
+                <div class="banner__imagem"></div>
                 <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
             </section>
             
@@ -103,7 +115,31 @@
                 </div>
             </section>
 
-        </main>
+            <section class="quem-somos">
+                <h3 class="quem-somos__titulo">Quem somos</h3>
+                <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+                <div class="pessoas">
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                        <span class="pessoa__nome">Roberta</span>
+                        <span class="pessoa__funcao">Conteúdo</span>
+                    </div>
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                        <span class="pessoa__nome">Marcela</span>
+                        <span class="pessoa__funcao">Chef de cozinha</span>
+                    </div>
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+                        <span class="pessoa__nome">Andréia</span>
+                        <span class="pessoa__funcao">Pequena Produtora</span>
+                    </div>
+                </div>
+            </section>
 
+        </main>
+        <footer class="rodape">
+            Contato: julian-ghb@hotmail.com
+        </footer>
     </body>
 </html>
