@@ -1,2 +1,1 @@
-# arquitetura-css
-curso de arquitetura da Alura. 
+Projeto de site de receitas para praticar HTML/CSS
